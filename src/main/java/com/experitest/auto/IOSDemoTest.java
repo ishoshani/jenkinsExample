@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
@@ -29,8 +30,7 @@ public class IOSDemoTest extends BaseTest {
 
 	@Test
 	public void test() {
-		// Enter the test code
-
+		Assert.fail();
 	}
 
 	@AfterMethod
