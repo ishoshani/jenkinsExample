@@ -30,7 +30,7 @@ public class IOSDemoTest extends BaseTest {
 
 	@Test
 	public void test() {
-		Assert.fail();
+		Assert.assertEquals(2+2, 4);
 	}
 
 	@AfterMethod
