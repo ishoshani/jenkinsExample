@@ -18,6 +18,7 @@ public class BaseTest {
 		dc.setCapability("deviceQuery", adhocDevice(deviceQuery));
 		dc.setCapability("reportDirectory", "reports");
 		dc.setCapability("reportFormat", "xml");
+		dc.setCapability("stream","IdoSJenkinsTask");
 		dc.setCapability("accessKey",getProperty("accessKey", cloudProperties));
 
 	}
