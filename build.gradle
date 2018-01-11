@@ -20,9 +20,14 @@ dependencies {
     compile 'com.experitest:repo:1.1'
 }
 
-test {
-    useTestNG() {
-        suites 'testng.xml'
+test{
+	scanForTestClasses = false
+    useTestNG(){
+    suites 'testng.xml'
     }
-  
+ }
+
+ task hi(){
+ 	print "hello"
 }
+  
